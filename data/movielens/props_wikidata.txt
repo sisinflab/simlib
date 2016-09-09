@@ -1,0 +1,6 @@
+http://www.wikidata.org/prop/direct/P136--http://www.wikidata.org/prop/direct/P279
+http://www.wikidata.org/prop/direct/P57
+http://www.wikidata.org/prop/direct/P161
+http://www.wikidata.org/prop/direct/P344
+http://www.wikidata.org/prop/direct/P58
+http://www.wikidata.org/prop/direct/P840
