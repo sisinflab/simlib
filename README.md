@@ -4,21 +4,22 @@ SimLib is flexible and extensible framework for implementing and comparing seman
 
 SimLib takes advantage of the last innovations introduced by Java 8, such as support for functional programming, lambda expressions, data streams processing and advanced parallelization, making easier to develop and maintain a software architecture able to deal with a huge amount of data.
 
-This framework defines a data model to properly represent graph entities and also a guideline on how similarity or relatedness metrics should be implemented, making use of the efficient parallelization paradigm provided by the Java 8 API.
+This framework defines a data model to properly represent graph entities and an interface describing how similarity or relatedness metrics should be implemented, making use of the efficient parallelization paradigm provided by the Java 8 API.
 
-Moreover, SimLib is able to interface with [ABSTAT](http://abstat.disco.unimib.it), a summarization framework developed by the [ITIS group](http://siti-server01.siti.disco.unimib.it/itislab) at [University of Milano-Bicocca](http://www.unimib.it) that helps Linked Data consumers to make sense of big and complex datasets, extracting ontology-based data abstraction models.
+Moreover, SimLib is able to interface with [ABSTAT](http://abstat.disco.unimib.it), a schema summarization framework developed by the [ITIS group](http://siti-server01.siti.disco.unimib.it/itislab) at [University of Milano-Bicocca](http://www.unimib.it) that helps Linked Data consumers to make sense of big and complex datasets, extracting ontology-based data abstraction models.
+
+This project is currently developed under the supervision of:
+   * [Tommaso Di Noia](http://sisinflab.poliba.it/dinoia)
+   * [Paolo Tomeo](http://sisinflab.poliba.it/tomeo)
+   * [Azzurra Ragone](https://www.linkedin.com/in/azzurraragone)
 
 Credits
 ------------
 
-This library was originally developed by [Giorgio Basile](https://github.com/giorgiobasile).
+simlib was originally developed by [Giorgio Basile](https://github.com/giorgiobasile) for his Master thesis at [Polytechnic University of Bari](http://www.poliba.it).
 
-The [graph kernel package](src/main/java/it/poliba/sisinflab/simlib/neighborhood/) was originally developed by Corrado Magarelli.
+The [graph kernel package](src/main/java/it/poliba/sisinflab/simlib/neighborhood/) was originally developed by Corrado Magarelli for his Master thesis at [Polytechnic University of Bari](http://www.poliba.it).
 
-This project have been developed under the supervision of:
-   * [Prof. Tommaso Di Noia](http://sisinflab.poliba.it/dinoia)
-   * [Paolo Tomeo](http://sisinflab.poliba.it/tomeo)
-   * [Azzurra Ragone, Ph.D.](http://sisinflab.poliba.it/ragone)
 
 Contacts
 ------------
