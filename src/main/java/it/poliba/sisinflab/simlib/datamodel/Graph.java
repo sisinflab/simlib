@@ -275,8 +275,8 @@ public class Graph{
         List<Arrow> p_in = s.stream().map(p -> this.createArrow(this.createNode(p), Arrow.DIR_IN)).collect(Collectors.toList());
 
         items.values().parallelStream().forEach(n -> {
-           p_out.stream().forEach(p -> n.removeArrow(p));
-           p_in.stream().forEach(p -> n.removeArrow(p));
+            p_out.stream().forEach(p -> n.removeArrow(p));
+            p_in.stream().forEach(p -> n.removeArrow(p));
         });
 
 //      s.stream().forEach(this::removeProperty);
@@ -309,6 +309,7 @@ public class Graph{
 
     public HashMap<Integer, Collection<Node>> getNeighborsDifferentDepths(Node n, int maxDepth, String direction){
         HashMap<Integer, Collection<Node>> neighbors = new HashMap<>();
+
         for (int i = 1 ; i < maxDepth + 1 ; i++){
 
 //            HashSet<Node> neighs = n.getNeighbors(i, direction);

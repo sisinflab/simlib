@@ -82,7 +82,7 @@ public class KatzRelatedness extends RelatednessMeasure {
             List<Integer> spt = shortestPaths.get((t));
             HashMap<Integer, Collection<Node>> targetNeighbors = graph.getNeighborsDifferentDepths(t, finalHalfMaxDepth,  Arrow.DIR_OUT);
             for (int i = 1; i < finalHalfMaxDepth + 1 && spt.size() < k  ; i++){
-                //if neighbors contains directly the target node t
+                //if neighbors map contains directly the target node t
                 if (neighbors.get(i).contains(t))
                     spt.add(i);
 

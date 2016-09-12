@@ -62,7 +62,10 @@ public abstract class RelatednessMeasure {
         return computeRelatednessRank(graph.getNode(nodeId), targets);
     }
     public Map<Node, Double> computeRelatednessRank(String nodeId,  Map<String, Node> targetNodes){
-        return computeRelatednessRank(graph.getNode(nodeId), targetNodes);
+        if (graph.contains(nodeId))
+            return computeRelatednessRank(graph.getNode(nodeId), targetNodes);
+        else
+            return new HashMap<>();
     }
 
     public Graph getGraph() {
