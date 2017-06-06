@@ -10,9 +10,7 @@ Moreover, SimLib is able to interface with [ABSTAT](http://abstat.disco.unimib.i
 
 This project is currently developed under the supervision of:
    * [Tommaso Di Noia](http://sisinflab.poliba.it/dinoia)
-   * [Paolo Tomeo](http://sisinflab.poliba.it/tomeo)
-   * [Azzurra Ragone](https://www.linkedin.com/in/azzurraragone)
-
+   
 Credits
 ------------
 
@@ -20,6 +18,7 @@ simlib was originally developed by [Giorgio Basile](https://github.com/giorgioba
 
 The [graph kernel package](src/main/java/it/poliba/sisinflab/simlib/neighborhood/) was originally developed by Corrado Magarelli for his Master thesis at [Polytechnic University of Bari](http://www.poliba.it).
 
+[Paolo Tomeo](http://sisinflab.poliba.it/tomeo) and [Azzurra Ragone](https://www.linkedin.com/in/azzurraragone) supervised the initial development of the framework.
 
 Contacts
 ------------
